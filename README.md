@@ -32,8 +32,10 @@ Test logic is simple:
 
 ## Setup
 ```bash
-npm install
-npx init playwright@latest
+mkdir playwright-saucelabs
+cd playwright-saucelabs
+npm init -y
+npm init playwright@latest
 ```
 
 ## Run tests
@@ -66,4 +68,5 @@ npx playwright show-report
 
 ## Troubleshooting
 - If tests fail to start, run `npx playwright install` again.
+
 
